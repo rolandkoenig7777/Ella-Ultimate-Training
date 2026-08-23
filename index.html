@@ -1,39 +1,152 @@
-<section class="card focus-section">
+<!DOCTYPE html>
+<html lang="de">
 
-    <h2>🎯 Schwerpunkt des Tages</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <h3 id="todayTraining"></h3>
+    <title>Ella Training Ultimate</title>
 
-    <div id="exerciseContainer"></div>
+    <meta name="theme-color" content="#1f4e79">
 
-</section>
+    <link rel="manifest" href="manifest.json">
 
-<section class="card daily-section">
+    icons/icon-180.png">
 
-    <h2>🔁 Tägliche Knie-Routine</h2>
+    <link rel="stylesheet"
+          href="style.css">
 
-    <div id="kneeContainer"></div>
+</head>
 
-</section>
+<body>
 
-<section class="card week-section">
+<header class="header">
 
-    <h2>📅 Wochenfortschritt</h2>
+    <h1>💪 Ella Training Ultimate</h1>
 
-    <div id="weekGrid" class="week-grid">
+</header>
 
-        <div class="week-day"><span>Mo</span><span id="mo">⬜</span></div>
-        <div class="week-day"><span>Di</span><span id="di">⬜</span></div>
-        <div class="week-day"><span>Mi</span><span id="mi">⬜</span></div>
-        <div class="week-day"><span>Do</span><span id="do">⬜</span></div>
-        <div class="week-day"><span>Fr</span><span id="fr">⬜</span></div>
-        <div class="week-day"><span>Sa</span><span id="sa">⬜</span></div>
-        <div class="week-day"><span>So</span><span id="so">⬜</span></div>
+<main>
 
-    </div>
+    <section class="card">
 
-    <div id="weekPercent">
-        0%
-    </div>
+        <h2>Heute</h2>
 
-</section>
+        <p>
+            Tag:
+            <strong id="todayDay"></strong>
+        </p>
+
+        <p>
+            Training:
+            <strong id="todayTraining"></strong>
+        </p>
+
+        <div class="stats">
+
+            <div class="stat">
+                ⭐ Punkte:
+                <span id="points">0</span>
+            </div>
+
+            <div class="stat">
+                🔥 Serie:
+                <span id="streak">0</span>
+            </div>
+
+        </div>
+
+        <div class="progress-wrapper">
+
+            <div class="progress">
+
+                <div id="progressBar"
+                     class="progress-bar">
+                </div>
+
+            </div>
+
+            <div id="progressLabel">
+                0%
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="card">
+
+        <h2>
+            🏋️ Heutiges Training
+        </h2>
+
+        <div id="exerciseContainer">
+
+        </div>
+
+    </section>
+
+    <section class="card">
+
+        <h2>
+            🦵 Knie-Routine
+        </h2>
+
+        <div id="kneeContainer">
+
+        </div>
+
+    </section>
+
+    <section class="card">
+
+        <button
+            id="finishButton"
+            onclick="completeTraining()">
+
+            🏁 Training abschließen
+
+        </button>
+
+    </section>
+
+    <section class="card">
+
+        <h2>
+            📅 Wochenübersicht
+        </h2>
+
+        <ul class="week-list">
+
+            <li>Montag → Core</li>
+            <li>Dienstag → Oberkörper</li>
+            <li>Mittwoch → Unterkörper</li>
+            <li>Donnerstag → Core</li>
+            <li>Freitag → Oberkörper</li>
+            <li>Samstag → Unterkörper</li>
+            <li>Sonntag → Unterkörper</li>
+
+        </ul>
+
+    </section>
+
+    <section class="card">
+
+        <h2>
+            📈 Trainingshistorie
+        </h2>
+
+        <div id="historyContainer">
+
+        </div>
+
+    </section>
+
+</main>
+
+.js"></script>
+
+</body>
+
+</html>
