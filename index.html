@@ -1,1 +1,50 @@
 <!DOCTYPE html><html lang='de'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Ella Training Ultimate</title><link rel='manifest' href='manifest.json'><link rel='apple-touch-icon' href='icons/icon-180.png'><link rel='stylesheet' href='style.css'></head><body><h1>💪 Ella Training Ultimate</h1><div id='todayDay'></div><div id='todayTraining'></div><div id='points'>0</div><div id='streak'>0</div><div class='progress'><div id='progressBar'></div></div><div id='progressLabel'>0%</div><div id='exerciseContainer'></div><div id='kneeContainer'></div><button onclick='completeTraining()'>Training abschließen</button><div id='historyContainer'></div><script src='app.js'></script></body></html>
+<section class="card">
+
+    <h2>📅 Wochenfortschritt</h2>
+
+    <div id="weekGrid" class="week-grid">
+
+        <div class="week-day" data-day="Montag">
+            <span>Mo</span>
+            <span id="status-Montag">⬜</span>
+        </div>
+
+        <div class="week-day" data-day="Dienstag">
+            <span>Di</span>
+            <span id="status-Dienstag">⬜</span>
+        </div>
+
+        <div class="week-day" data-day="Mittwoch">
+            <span>Mi</span>
+            <span id="status-Mittwoch">⬜</span>
+        </div>
+
+        <div class="week-day" data-day="Donnerstag">
+            <span>Do</span>
+            <span id="status-Donnerstag">⬜</span>
+        </div>
+
+        <div class="week-day" data-day="Freitag">
+            <span>Fr</span>
+            <span id="status-Freitag">⬜</span>
+        </div>
+
+        <div class="week-day" data-day="Samstag">
+            <span>Sa</span>
+            <span id="status-Samstag">⬜</span>
+        </div>
+
+        <div class="week-day" data-day="Sonntag">
+            <span>So</span>
+            <span id="status-Sonntag">⬜</span>
+        </div>
+
+    </div>
+
+    <div class="week-progress">
+        Woche abgeschlossen:
+        <span id="weekPercent">0%</span>
+    </div>
+
+</section>
