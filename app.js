@@ -72,7 +72,68 @@ function renderDashboard() {
 
 }
 
-function renderExercises() {
+function function renderExercises() {
+
+    const dayMap = {
+        1: "core",
+        2: "oberkoerper",
+        3: "unterkoerper",
+        4: "core",
+        5: "oberkoerper",
+        6: "unterkoerper",
+        0: "unterkoerper"
+    };
+
+    const training =
+        dayMap[new Date().getDay()];
+
+    const container =
+        document.getElementById(
+            "exerciseContainer"
+        );
+
+    container.innerHTML = "";
+
+    document.getElementById(
+        "todayTraining"
+    ).textContent =
+        training;
+
+    if (!exercisesData[training])
+        return;
+
+    exercisesData[training]
+        .forEach(exercise => {
+
+            const div =
+                document.createElement(
+                    "div"
+                );
+
+            div.className =
+                "exercise";
+
+            div.innerHTML = `
+                <label>
+                    <input
+                        type="checkbox"
+                        class="exerciseCheck">
+
+                    <strong>
+                        ${exercise.name}
+                    </strong>
+                </label>
+
+                <div>
+                    ${exercise.sets}
+                </div>
+            `;
+
+            container.appendChild(div);
+
+        });
+
+}
 
     const today =
         dayMap[new Date().getDay()];
