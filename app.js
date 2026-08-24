@@ -8,24 +8,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("exerciseContainer").innerHTML =
         `
-            <div>
-                ☐ Copenhagen Short Lever
-            </div>
-
-            <div>
-                ☐ Side Plank mit Abduktion
-            </div>
+        <div>☐ Copenhagen Short Lever</div>
+        <div>☐ Side Plank mit Abduktion</div>
+        <div>☐ Plank diagonal</div>
         `;
 
     document.getElementById("kneeContainer").innerHTML =
         `
-            <div>
-                ☐ Einbeinstand
-            </div>
-
-            <div>
-                ☐ Supported TKE
-            </div>
+        <div>☐ Einbeinstand</div>
+        <div>☐ Supported TKE</div>
         `;
 
 });
