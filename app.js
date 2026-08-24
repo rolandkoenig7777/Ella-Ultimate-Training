@@ -1,3 +1,4 @@
+alert("app.js wurde geladen");
 let exercisesData = {};
 
 const dayNames = [
