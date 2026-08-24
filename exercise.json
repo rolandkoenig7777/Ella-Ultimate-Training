@@ -1,0 +1,111 @@
+{
+  "core": [
+    {
+      "name": "Copenhagen Short Lever",
+      "sets": "3 x 10-15",
+      "video": "https://www.youtube.com/shorts/Rwap0_j5i5A"
+    },
+    {
+      "name": "Side Plank mit Abduktion",
+      "sets": "3 x 10-15",
+      "video": "https://www.youtube.com/shorts/8JZUOtcp0Js"
+    },
+    {
+      "name": "Plank diagonal",
+      "sets": "3 x 10-15"
+    },
+    {
+      "name": "High Reverse Plank",
+      "sets": "3 x 10-15",
+      "video": "https://www.youtube.com/shorts/EOmCzOSUGgI"
+    },
+    {
+      "name": "Pallof Rotation",
+      "sets": "3 x 10-15",
+      "video": "https://www.youtube.com/shorts/yfaPyHC8MwU"
+    },
+    {
+      "name": "Pallof Antirotation",
+      "sets": "3 x 10-15",
+      "video": "https://www.youtube.com/shorts/T5MEEtY78YE"
+    },
+    {
+      "name": "SL RDL",
+      "sets": "3 x 10-15",
+      "video": "https://www.youtube.com/shorts/U4sOY8Gyc-s"
+    }
+  ],
+
+  "oberkoerper": [
+    {
+      "name": "Lat Pull",
+      "sets": "3 x 8-12"
+    },
+    {
+      "name": "Military Press",
+      "sets": "3 x 8-12"
+    },
+    {
+      "name": "Ruderzug sitzend",
+      "sets": "3 x 8-12"
+    },
+    {
+      "name": "Bench Press",
+      "sets": "3 x 8-12"
+    }
+  ],
+
+  "unterkoerper": [
+    {
+      "name": "90-90 Routine",
+      "sets": "5-10 Minuten"
+    },
+    {
+      "name": "Seitliches Gehen mit Miniband",
+      "sets": "3 x 4m"
+    },
+    {
+      "name": "Banded Knee Extension",
+      "sets": "3 x 15/15"
+    },
+    {
+      "name": "Glute Bridge einbeinig",
+      "sets": "3 x 15/15"
+    },
+    {
+      "name": "Kniebeugen erhöht",
+      "sets": "3 x 10"
+    },
+    {
+      "name": "RDL",
+      "sets": "3 x 15"
+    }
+  ],
+
+  "knieRoutine": [
+    {
+      "name": "Einbeinstand",
+      "sets": "2-3 x 45 Sekunden"
+    },
+    {
+      "name": "Supported TKE",
+      "sets": "2-3 x 10-15"
+    },
+    {
+      "name": "Kneeslides",
+      "sets": "2-3 x 10-15"
+    },
+    {
+      "name": "Iso Hold Quads",
+      "sets": "2-3 x 40 Sekunden"
+    },
+    {
+      "name": "Tibialis Rotation",
+      "sets": "2-3 x 10-15"
+    },
+    {
+      "name": "Gangschule",
+      "sets": "5 Minuten"
+    }
+  ]
+}
