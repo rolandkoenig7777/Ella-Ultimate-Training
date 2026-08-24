@@ -1,153 +1,183 @@
 {
-  "unterkoerper": [
-    {
-      "name": "90-90 Routine",
-      "sets": "5-10 Minuten",
-      "video": "https://www.youtube.com/watch?v=WUKHM6-ekJM&t=35s"
+  "wochenplan": {
+    "montag": {
+      "schwerpunkt": "Core",
+      "uebungen": [
+        {
+          "name": "Copenhagen Short Lever",
+          "saetze": 3,
+          "wiederholungen": "10-15",
+          "video": "https://www.youtube.com/shorts/Rwap0_j5i5A"
+        },
+        {
+          "name": "Side Plank mit Abduktion",
+          "saetze": 3,
+          "wiederholungen": "10-15",
+          "video": "https://www.youtube.com/shorts/8JZUOtcp0Js"
+        },
+        {
+          "name": "Plank diagonal",
+          "saetze": 3,
+          "wiederholungen": "10-15",
+          "video": ""
+        },
+        {
+          "name": "High Reverse Plank",
+          "saetze": 3,
+          "wiederholungen": "10-15",
+          "video": "https://www.youtube.com/shorts/EOmCzOSUGgI"
+        },
+        {
+          "name": "Pallof Rotation",
+          "saetze": 3,
+          "wiederholungen": "10-15",
+          "video": "https://www.youtube.com/shorts/yfaPyHC8MwU"
+        },
+        {
+          "name": "Pallof Antirotation",
+          "saetze": 3,
+          "wiederholungen": "10-15",
+          "video": "https://www.youtube.com/shorts/T5MEEtY78YE"
+        },
+        {
+          "name": "SL RDL",
+          "saetze": 3,
+          "wiederholungen": "10-15",
+          "video": "https://www.youtube.com/shorts/U4sOY8Gyc-s"
+        }
+      ]
     },
-    {
-      "name": "Seitliches Gehen mit Miniband",
-      "sets": "3 x 4m",
-      "video": "https://www.youtube.com/watch?v=b6oljpg4Fb0"
-    },
-    {
-      "name": "Banded Knee Extension",
-      "sets": "3 x 15/15",
-      "video": "https://www.youtube.com/shorts/XjjV_zEg0G0"
-    },
-    {
-      "name": "Glute Bridge einbeinig",
-      "sets": "3 x 15/15",
-      "video": ""
-    },
-    {
-      "name": "Kniebeugen erhöht",
-      "sets": "3 x 10",
-      "video": ""
-    },
-    {
-      "name": "RDL",
-      "sets": "3 x 15",
-      "video": "https://www.youtube.com/shorts/ecuZtKTNI9U"
-    },
-    {
-      "name": "Tibialis Raises",
-      "sets": "3 x 15-20",
-      "video": ""
-    },
-    {
-      "name": "Wadenheben einbeinig",
-      "sets": "3 x 15-20",
-      "video": "https://www.youtube.com/shorts/pQcvW08rnAk"
-    }
-  ],
 
-  "core": [
-    {
-      "name": "Copenhagen Short Lever",
-      "sets": "3 x 10-15",
-      "video": "https://www.youtube.com/shorts/Rwap0_j5i5A"
+    "dienstag": {
+      "schwerpunkt": "Oberkörper",
+      "uebungen": [
+        {
+          "name": "Lat Pull",
+          "saetze": 3,
+          "wiederholungen": "8-12"
+        },
+        {
+          "name": "Military Press",
+          "saetze": 3,
+          "wiederholungen": "8-12"
+        },
+        {
+          "name": "Ruderzug sitzend",
+          "saetze": 3,
+          "wiederholungen": "8-12"
+        },
+        {
+          "name": "Bench Press",
+          "saetze": 3,
+          "wiederholungen": "8-12"
+        },
+        {
+          "name": "Seitheben",
+          "saetze": 3,
+          "wiederholungen": "8-12",
+          "video": "https://www.youtube.com/shorts/4IEdMTQiVT8"
+        },
+        {
+          "name": "Schulter Außenrotation",
+          "saetze": 3,
+          "wiederholungen": "8-12",
+          "video": "https://www.youtube.com/shorts/PTi9pfttH64"
+        },
+        {
+          "name": "Y-T-W",
+          "saetze": 3,
+          "wiederholungen": "10-10-10",
+          "video": "https://www.youtube.com/shorts/eAyby2SpnLA"
+        }
+      ]
     },
-    {
-      "name": "Side Plank mit Abduktion",
-      "sets": "3 x 10-15",
-      "video": "https://www.youtube.com/shorts/8JZUOtcp0Js"
-    },
-    {
-      "name": "Plank diagonal",
-      "sets": "3 x 10-15",
-      "video": ""
-    },
-    {
-      "name": "High Reverse Plank",
-      "sets": "3 x 10-15",
-      "video": "https://www.youtube.com/shorts/EOmCzOSUGgI"
-    },
-    {
-      "name": "Pallof Rotation",
-      "sets": "3 x 10-15",
-      "video": "https://www.youtube.com/shorts/yfaPyHC8MwU"
-    },
-    {
-      "name": "Pallof Antirotation",
-      "sets": "3 x 10-15",
-      "video": "https://www.youtube.com/shorts/T5MEEtY78YE"
-    },
-    {
-      "name": "SL RDL",
-      "sets": "3 x 10-15",
-      "video": "https://www.youtube.com/shorts/U4sOY8Gyc-s"
-    }
-  ],
 
-  "oberkoerper": [
-    {
-      "name": "Lat Pull",
-      "sets": "3 x 8-12",
-      "video": ""
-    },
-    {
-      "name": "Military Press",
-      "sets": "3 x 8-12",
-      "video": ""
-    },
-    {
-      "name": "Ruderzug sitzend",
-      "sets": "3 x 8-12",
-      "video": ""
-    },
-    {
-      "name": "Bench Press",
-      "sets": "3 x 8-12",
-      "video": ""
-    },
-    {
-      "name": "Seitheben",
-      "sets": "3 x 8-12",
-      "video": "https://www.youtube.com/shorts/4IEdMTQiVT8"
-    },
-    {
-      "name": "Schulter Außenrotation",
-      "sets": "3 x 8-12",
-      "video": "https://www.youtube.com/shorts/PTi9pfttH64"
-    },
-    {
-      "name": "Y-T-W",
-      "sets": "3 x 10-10-10",
-      "video": "https://www.youtube.com/shorts/eAyby2SpnLA"
+    "mittwoch": {
+      "schwerpunkt": "Unterkörper",
+      "uebungen": [
+        {
+          "name": "90-90 Routine",
+          "saetze": 1,
+          "wiederholungen": "5-10 Minuten",
+          "video": "https://www.youtube.com/watch?v=WUKHM6-ekJM&t=35s"
+        },
+        {
+          "name": "Seitliches Gehen mit Miniband",
+          "saetze": 3,
+          "wiederholungen": "4m",
+          "video": "https://www.youtube.com/watch?v=b6oljpg4Fb0"
+        },
+        {
+          "name": "Banded Knee Extension",
+          "saetze": 3,
+          "wiederholungen": "15/15",
+          "video": "https://www.youtube.com/shorts/XjjV_zEg0G0"
+        },
+        {
+          "name": "Glute Bridge einbeinig",
+          "saetze": 3,
+          "wiederholungen": "15/15"
+        },
+        {
+          "name": "Kniebeugen erhöht",
+          "saetze": 3,
+          "wiederholungen": "10"
+        },
+        {
+          "name": "RDL",
+          "saetze": 3,
+          "wiederholungen": "15",
+          "video": "https://www.youtube.com/shorts/ecuZtKTNI9U"
+        },
+        {
+          "name": "Tibialis Raises",
+          "saetze": 3,
+          "wiederholungen": "15-20"
+        },
+        {
+          "name": "Wadenheben einbeinig",
+          "saetze": 3,
+          "wiederholungen": "15-20",
+          "video": "https://www.youtube.com/shorts/pQcvW08rnAk"
+        }
+      ]
     }
-  ],
+  },
 
-  "knieRoutine": [
+  "taeglicheKnieRoutine": [
     {
       "name": "Einbeinstand",
-      "sets": "2-3 x 45s",
-      "video": ""
+      "saetze": "2-3",
+      "wiederholungen": "45 Sekunden"
     },
     {
       "name": "Supported TKE",
-      "sets": "2-3 x 10-15",
+      "saetze": "2-3",
+      "wiederholungen": "10-15",
       "video": "https://www.youtube.com/shorts/IcjtEqeWLKA"
     },
     {
       "name": "Kneeslides",
-      "sets": "2-3 x 10-15",
+      "saetze": "2-3",
+      "wiederholungen": "10-15",
       "video": "https://www.youtube.com/shorts/t17Z6HeiiQs"
     },
     {
       "name": "Iso Hold Quads",
-      "sets": "2-3 x 40s",
+      "saetze": "2-3",
+      "wiederholungen": "40 Sekunden",
       "video": "https://www.youtube.com/shorts/VsurwTOm7JI"
     },
     {
       "name": "Tibialis Rotation",
-      "sets": "2-3 x 10-15",
+      "saetze": "2-3",
+      "wiederholungen": "10-15",
       "video": "https://www.youtube.com/shorts/PAecIK960xM"
     },
     {
       "name": "Gangschule",
-      "sets": "5 Minuten",
-      "video": ""
+      "saetze": 1,
+      "wiederholungen": "5 Minuten"
     }
   ]
 }
